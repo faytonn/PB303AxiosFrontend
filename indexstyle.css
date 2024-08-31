@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+
+/* .background{
+    background-image: url(https://i.pinimg.com/564x/75/de/fe/75defe6df8f377acdc7dfdd724e95ef1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+body{
+    background-image:url(try3.gif);
+    background-size: cover;
+    justify-content: center;
+    margin:0px;
+}
+
+/* 
+.topnav{
+    display:flex;
+    overflow: hidden;
+    width:50%;
+    vertical-align: top;
+    align-items: center;
+} */
+
+.topnav-right li{
+   float:right;
+   display:inline;
+}
+.topnav-right a{
+    padding:14px 50px;
+    background-color: rgba(36, 40, 61, 0.914);;
+    color:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size:21px;
+    float:right;
+}
+.topnav-right a:hover{
+    background-color:whitesmoke;
+    color: rgba(36, 40, 61, 0.914);
+}
+
+.topnav-left{
+    background-color: rgba(36, 40, 61, 0.914);
+  overflow:hidden;
+}
+
+.topnav-left a{
+    float:left;
+    color:#FFB200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size:21px;
+    padding:14px 16px;
+} 
+
+.topnav-left a:hover{
+    background-color:#FFB200;
+    color: rgba(36, 40, 61, 0.914);
+}
+
+.background{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#FFB200 ;
+    opacity: 0.65;
+    font-size: 25px;
+    padding: 25px 27px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; 
+    
+}
+
+ button{
+    text-decoration: none;
+    background-color: #ff7400;
+    padding: 5px 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; 
+    color:whitesmoke;
+}
+
+button a{
+   text-decoration: none;
+   color:whitesmoke;
+}
+button:hover {
+    color : #ff7400;
+    background-color: whitesmoke;
+    cursor: pointer;
+}

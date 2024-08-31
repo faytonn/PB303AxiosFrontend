@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="registerstyle.css">
+</head>
+<body>
+    <div class="topnavReg">
+        <ul>
+            <li>
+              <a href="login.html">Log in</a>
+              <a href="index.html">Go back to Main Page</a>
+            </li>
+    </div>
+    <div class="registerPart">
+
+        <form class="form">
+            <p>Register</p>
+            <input type="text" placeholder="fullname" required id="fullname" name="fullname">
+            <input type="email" placeholder="email" required id="email" name="email">
+            <input type="tel" placeholder="Phone number" required id="phoneNumber" name="phoneNumber">
+            <input type="password" placeholder="Password" required id="password" name="Password">
+            <input type="password" placeholder="Confirm Password" required id="confirmPassword" name="Confirm Password">
+            <button type="submit">Send</button>
+          </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./main.js"></script>
+
+</html>

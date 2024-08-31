@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(try3.gif);
+    background-size: cover;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.loginForm {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 178, 0, 0.9); 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.topnavReg{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: rgba(36, 40, 61, 0.914); 
+}
+
+.topnavReg li{
+    float:right;
+    display:inline;
+ }
+ .topnavReg a{
+     padding:14px 50px;
+     background-color: rgba(36, 40, 61, 0.914);;
+     color:whitesmoke;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     font-size:21px;
+     float:right;
+ }
+ .topnavReg a:hover{
+     background-color:whitesmoke;
+     color: rgba(36, 40, 61, 0.914);
+ }
+
+/* .topnavReg {
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    background-color: rgba(36, 40, 61, 0.914); 
+    padding:10px;
+
+}
+
+
+.topnavReg ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 50px; 
+}
+
+.topnavReg li {
+    display: inline;
+    margin-left: 20px; 
+}
+
+.topnavReg a {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 16px;
+}
+
+.topnavReg a:hover {
+    background-color: whitesmoke;
+    color: rgba(36, 40, 61, 0.914);
+} */
+
+.loginForm p {
+    font-size: 24px;
+    color: rgba(36, 40, 61, 0.914); 
+}
+
+input[type=email],
+input[type=password] {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type=submit] {
+    background-color: #ff7400; 
+    color: whitesmoke;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button[type=submit]:hover {
+    color: #ff7400;
+    background-color: whitesmoke;
+}
+
+.remember-me {
+    font-size: 14px;
+    color: rgba(36, 40, 61, 0.914);
+    display: block;
+    background-color: #ff7400;
+    margin-top: 10px;
+}
+
+.psw {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    background-color: #ff7400;
+    
+    
+}
+
+.psw a {
+    color: rgba(36, 40, 61, 0.914); 
+    text-decoration: none;
+}
+
+.psw a:hover {
+    color: #ff7400;
+    text-decoration: underline;
+}
+
+/* .background {
+    text-align: center;
+    background-color: #FFB200;
+    opacity: 0.65;
+    font-size: 25px;
+    padding: 25px 27px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+} */

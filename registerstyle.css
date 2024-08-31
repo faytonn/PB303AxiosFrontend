@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnavReg{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: rgba(36, 40, 61, 0.914); 
+}
+
+.topnavReg li{
+    float:right;
+    display:inline;
+ }
+ .topnavReg a{
+     padding:14px 50px;
+     background-color: rgba(36, 40, 61, 0.914);;
+     color:whitesmoke;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     font-size:21px;
+     float:right;
+ }
+ .topnavReg a:hover{
+     background-color:whitesmoke;
+     color: rgba(36, 40, 61, 0.914);
+ }
+
+body {
+    background-image: url(try3.gif);
+    background-size: cover;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 178, 0, 0.9); /* Main background color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.form p {
+    font-size: 24px;
+    color: rgba(36, 40, 61, 0.914); /* Text color */
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type=submit] {
+    background-color: #ff7400; /* Button color */
+    color: whitesmoke;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button[type=submit]:hover {
+    color: #ff7400;
+    background-color: whitesmoke;
+}
+
+.background {
+    text-align: center;
+    background-color: #FFB200;
+    opacity: 0.65;
+    font-size: 25px;
+    padding: 25px 27px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}

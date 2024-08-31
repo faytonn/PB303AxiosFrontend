@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="loginstyle.css">
+
+</head>
+<body>
+    <div class="topnavReg">
+        <ul>
+            <li>
+              <a href="register.html">Register</a>
+              <a href="index.html">Go back to Main Page</a>
+            </li>
+    </div>
+
+<div>
+
+    <br><br><br><br>
+  <form class="loginForm">
+    <p>Login</p>
+    <input type="email" placeholder="Email" required id="loginEmail" name="loginEmail">
+    
+    <input type="password" placeholder="Password" required id="loginPassword" name="loginPassword">
+    
+    <button type="submit">Login</button>
+
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <div class="container" style="background-color:#f1f1f1">
+        <span class="psw">
+             <a href="#">Forgot password?</a>
+        </span>
+      </div>
+    </form>
+</div>
+  <div class="background">
+
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./main.js"></script>
+
+</html>
