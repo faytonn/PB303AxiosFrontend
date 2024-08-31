@@ -137,8 +137,8 @@ button[type=submit]:hover {
 }
 
 .psw a:hover {
-    color: #ff7400;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 /* .background {

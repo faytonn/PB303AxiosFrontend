@@ -94,3 +94,7 @@ button:hover {
     background-color: whitesmoke;
     cursor: pointer;
 }
+
+.list{
+    overflow: auto;
+}
